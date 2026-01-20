@@ -139,7 +139,7 @@ function App() {
                         <input
                             type="email"
                             className="squad-input"
-                            placeholder="e.g. stuart@1energygroup.com"
+                            placeholder="e.g. test@example.com"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             required
@@ -251,3 +251,4 @@ function App() {
 }
 
 export default App;
+
