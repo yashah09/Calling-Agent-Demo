@@ -228,19 +228,6 @@ function App() {
                     )}
                 </div>
 
-                <section style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginTop: '4rem' }}>
-                    {[
-                        { icon: <Shield size={24} />, title: "Secure Audio", desc: "End-to-end encrypted voice streaming." },
-                        { icon: <Globe size={24} />, title: "Ultra Low Latency", desc: "Sub-500ms response times for natural flow." },
-                        { icon: <Settings size={24} />, title: "Dynamic Logic", desc: "Real-time tool calling and data updates." }
-                    ].map((feature, i) => (
-                        <div key={i} className="glass-panel" style={{ padding: '1.5rem', textAlign: 'left' }}>
-                            <div style={{ color: 'var(--accent-secondary)', marginBottom: '1rem' }}>{feature.icon}</div>
-                            <h3 style={{ marginBottom: '0.5rem' }}>{feature.title}</h3>
-                            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>{feature.desc}</p>
-                        </div>
-                    ))}
-                </section>
             </main>
 
         </div>
