@@ -131,7 +131,7 @@ function App() {
                         }}>
                             <Zap color="white" size={32} />
                         </div>
-                        <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Portal <span className="gradient-text">Sync</span></h1>
+                        <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Agent <span className="gradient-text">Access</span></h1>
                         <p style={{ color: 'var(--text-muted)' }}>Enter your authorized email to access your calling portal.</p>
                     </div>
 
@@ -243,9 +243,6 @@ function App() {
                 </section>
             </main>
 
-            <footer style={{ marginTop: 'auto', padding: '2rem 0', borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)', fontSize: '0.875rem' }}>
-                Connected to Enterprise Relay v2.4.0
-            </footer>
         </div>
     );
 }
